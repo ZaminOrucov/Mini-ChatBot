@@ -71,7 +71,7 @@ namespace MiniChatBotApp
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Bot: Bağışla, mən bu sözü anlamadım. 😅");
+                Console.WriteLine("Bot: Bağışla, Səni tam başa düşə bilmədim 😅");
             }
 
             Console.ResetColor();

@@ -14,7 +14,7 @@ namespace MiniChatBotApp
             {
                 { "salam", new List<string>{ "Salam! Necəsən? 😊", "Salam dostum!", "Salam, xoş gördük! 👋" } },
                 { "necəsən", new List<string>{ "Əla, bəs sən? 😎", "Həmişə yaxşıyam! 👍", "Super gedir, sən necəsən?" } },
-                { "adın nədir", new List<string>{ "Mənim adım MiniBot-dur 🤖", "Məni ChatBot çağır 😁" } },
+                { "adın nədir", new List<string>{ "Mənim adım Zarvis-dir 🤖", "Məni Zarvis çağır 😁" } },
                 { "hava necədir", new List<string>{ "Mənim üçün hava həmişə günəşlidir ☀️", "Buludlu deyil, kodlarla işıqlıdır 🌈" } },
                 { "səni kim yaratdı", new List<string>{ "Məni Zamin yaratdı 🔥", "Səni maraqlandırırsa, sən yaratdın 😅" } },
                 { "sağ ol", new List<string>{ "Sən də sağ ol 👍", "Minnətdaram 🙏", "Çox sağ ol!" } },
@@ -71,7 +71,7 @@ namespace MiniChatBotApp
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Bot: Bağışla, Səni tam başa düşə bilmədim 😅");
+                Console.WriteLine("Bot: Bağışla, Səni tam başa düşə bilmədim.");
             }
 
             Console.ResetColor();

@@ -13,10 +13,10 @@ namespace MiniChatBotApp
             responses = new Dictionary<string, List<string>>(StringComparer.OrdinalIgnoreCase)
             {
                 { "salam", new List<string>{ "Salam! Necəsən? 😊", "Salam dostum!", "Salam, xoş gördük! 👋" } },
-                { "necəsən", new List<string>{ "Əla, bəs sən? 😎", "Həmişə yaxşıyam! 👍", "Super gedir, sən necəsən?" } },
+                { "necəsən", new List<string>{ "Əla, bəs sən? 😎", "Mən həmişə yaxşıyam! 👍", "Super gedir, sən necəsən?" } },
                 { "adın nədir", new List<string>{ "Mənim adım Zarvis-dir 🤖", "Məni Zarvis çağır 😁" } },
                 { "hava necədir", new List<string>{ "Mənim üçün hava həmişə günəşlidir ☀️", "Buludlu deyil, kodlarla işıqlıdır 🌈" } },
-                { "səni kim yaratdı", new List<string>{ "Məni Zamin yaratdı 🔥", "Səni maraqlandırırsa, sən yaratdın 😅" } },
+                { "səni kim yaratdı", new List<string>{ "Məni Zamin yaratdı 🔥" } },
                 { "sağ ol", new List<string>{ "Sən də sağ ol 👍", "Minnətdaram 🙏", "Çox sağ ol!" } },
             };
         }
